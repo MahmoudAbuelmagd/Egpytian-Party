@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #ccc;
+}
+
+html,body{
+  scroll-behavior: auto !important;
+}
+.mainColor{
+  color: rgba(214, 46, 51, 0.6);
+}
+.active{
+  color: rgba(214, 46, 51, 0.6) !important;
+}
+#home{
+  background-image: linear-gradient( rgba(214, 46, 51, 0.6) ,rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+#home .mainHeading{ 
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#home .mainHeading h1{
+  font-size: 75px;
+}
+#home aside{
+  width: 0px;
+  height: 100vh;
+  padding: 50px;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+#home aside ul li {
+  padding: 30px;
+}
+#home aside ul li a{
+  color: #fff;
+  font-size: 32px;
+  transition: all 0.5s;
+}
+#home aside ul li a:hover,
+#home aside i:hover{
+  color:rgba(214, 46, 51, 0.6);
+}
+
+#home aside > i {
+  right:25px;
+  cursor: pointer;
+}
+
+#home .icon{
+  cursor: pointer;
+  width: fit-content;
+  position: absolute;
+  left: 1%;
+  top: 50%; 
+
+}
+#singers .Singer{
+  background-color: rgba(214, 46, 51, 0.6);
+  padding: 36px;
+  cursor: pointer;
+}
+#singers .description,
+.desc{
+  background-color: #ccc;
+  padding: 18px;
+}
+#singers .desc{
+  display: none;
+}
+
+#countdown{
+  background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg) ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 100px;
+}
+#countdown .inner{
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 22px;
+}
+
+#contact .links{
+  display: flex;
+}
+
+#contact .links li{
+  padding: 18px 25px;
+  border: 2px solid #eee;
+  border-radius: 2px;
+  margin-inline: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#contact .links li:hover{
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+#contact .links li:hover a{
+  color: white !important;
+}
+
+#contact textarea{
+  height: 160px !important;
+  padding: 10px;
+  border-radius: 0;
+}
+#contact .form-control{
+  box-shadow: none;
+  border-color: #ccc;
+}
+#contact .form-control:focus{
+  border-color: rgba(214, 46, 51, 0.6);
+}
