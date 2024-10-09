@@ -132,7 +132,7 @@ html,body{
     width:100% !important;
     padding-inline: 15px !important;
   }
-  .links{
+  #contact .links{
     display: flex;
     justify-content: space-between;
   }
